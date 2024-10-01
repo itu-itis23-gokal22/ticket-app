@@ -14,7 +14,6 @@ const isAuth = require("./middleware/is-auth");
 
 const MONGODB_URI =
   'mongodb+srv://alienes:e1XtHUWQ30SxGuaC@cluster0.6g5a1.mongodb.net/shop';
-//  "mongodb://alienes:e1XtHUWQ30SxGuaC@cluster0-shard-00-00.6g5a1.mongodb.net:27017,cluster0-shard-00-01.6g5a1.mongodb.net:27017,cluster0-shard-00-02.6g5a1.mongodb.net:27017/shop?ssl=false&replicaSet=atlas-xyz-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 const app = express();
 const store = new MongoDBStore({
